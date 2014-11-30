@@ -50,10 +50,8 @@ class Building
 		<link  rel="stylesheet" href="css/inc-css.css"/>
 		<script>
 		function function1(){
-		var x = document.getElementById("location").value;
-		
-		return x;
-		
+		// var x = document.getElementById("location").value;
+		// alert(x);
 		}
 		</script>
     </head>
@@ -72,9 +70,9 @@ class Building
 		
 		<div style="border:1px solid; width:300px; height:70px; float:left; text-align:center; margin-left:4%;"> 
 		<!-- box with dropdown list -->
-		<form action="abc.php"> 
+		<form action="newserver.php"> 
 		<div style="padding-top:11px;">  Deliver to: </div>
-		<div> <select name="location" id="location" onchange="function1();">
+		<div> <select name="location" id="location" onchange="function1()">
 		<?php for($i=0; $i<count($results); $i++) { ?>
 		<option value="<?php echo $buildings[$i]->bldgName ;?>"> <?php echo $buildings[$i]->bldgName ;?> </option>
 		
@@ -82,7 +80,6 @@ class Building
 		}
 		
 		?>
-		<option value="abc">abc</option>
 		</select> </div>
 		
 		</div>
