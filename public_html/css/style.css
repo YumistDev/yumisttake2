@@ -1,0 +1,253 @@
+body {
+    font-family:'Open Sans',sans-serif;
+}
+
+.header {
+/*background: url('../media/bg.jpg')no-repeat;*/
+    
+	background-color:#f7f7f8;
+    padding:0 0;
+}
+
+.footer{
+background-color:#fa463e;
+height:75px;
+}
+
+.geolocation_data
+{
+    border:5px solid #fa463e;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    background-color:#000;
+    color:#fa463e;
+    padding:10px;
+    text-align:center;
+    letter-spacing:.1em;
+    line-height:100%
+}
+
+.center1 {
+    position:absolute;
+    left:50%;
+    top:50%
+}
+
+.mymenu {
+    padding:0em 0;
+    text-align:center
+}
+
+.menu h3 {
+    font-size:23px;
+    font-family:'Lato',sans-serif;
+    font-weight:700;
+    color:#000
+}
+}
+
+.logos{
+    margin-top:2%;
+    margin-left:2%;
+    float:left;
+	background-color:#fa463e;
+}
+
+.logoimg {
+    width:250px;
+    height:100px
+}
+
+span.linet-red {
+    width:10%;
+    height:1px;
+    background:red;
+    display:block;
+    margin:0 auto
+}
+
+.text {
+    width:500px;
+    height:400px;
+    opacity:0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pic:hover .text {
+    opacity:1;
+    text-align:justify;
+    color:#000;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman",Times,serif;
+    padding:30px
+}
+
+a.play-icon.popup-with-zoom-anim img:hover {
+    opacity:.5;
+    transition:.5s all;
+    -webkit-transition:.5s all;
+    -o-transition:.5s all;
+    -moz-transition:.5s all;
+    -ms-transition:.5s all
+}
+
+div.play-icon.popup-with-zoom-anim:hover {
+    opacity:.5;
+    transition:.5s all;
+    -webkit-transition:.5s all;
+    -o-transition:.5s all;
+    -moz-transition:.5s all;
+    -ms-transition:.5s all
+}
+
+.pic {
+    height:400px;
+    width:45%;
+    background:url(../media/bg.jpg) no-repeat
+}
+
+.pic:hover .text {
+    opacity:1;
+    text-align:justify;
+    color:#000;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman",Times,serif;
+    padding:0;
+    text-align:center
+}
+
+.menu-items {
+    text-align:center;
+    margin:0 auto
+}
+
+.menu-img {
+    width:45%;
+    float:left
+}
+
+.clear {
+    clear:both
+}
+
+#checkoutP {
+    width:400px;
+    height:272px;
+    position:fixed;
+/* we fix the position in a window */
+    z-index:50;
+/* we move a panel to the right downward: */
+    top:100%;
+    left:50%;
+/* we pull out the top: */
+    margin-top:-25px;
+    margin-left:-130px;
+    border:2px solid;
+    border-radius:10px;
+    padding:5px;
+/* we set the effect of motion: */
+    -moz-transition:margin .3s linear;
+    -o-transition:margin .3s linear;
+    -webkit-transition:margin .3s linear;
+    -ms-transition:margin .3s linear;
+    transition:margin .3s linear
+}
+
+
+#checkoutP:hover {
+/* we pull out a panel that everyone could see it: */
+    margin-top:-272px;
+/* we set the effect of motion: */
+    -moz-transition:margin .3s linear;
+    -o-transition:margin .3s linear;
+    -webkit-transition:margin .3s linear;
+    -ms-transition:margin .3s linear;
+    transition:margin .3s linear
+}
+
+/* We do the heading of the panel, as a corner of paper folder: */
+#CheckoutPButton {
+    font-weight:700;
+    margin-left:10px;
+    margin-top:-6px;
+    border:1px solid #717277;
+    border-radius:0 0 10px 10px;
+    text-align:center;
+    margin-bottom:5px;
+    color:#FFF;
+    background:#717277
+}
+
+#CheckoutPIframe {
+    width:390px;
+    height:240px;
+    border:1px solid
+}
+
+iframe {
+    border:none
+}
+
+.interduce{
+	background:#f7f7f7;
+	padding:10em 0 0 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 992px) {
+.col-md-6 {
+float: left;
+width: 50%;
+background-color: ghostwhite;
+height: 526px;
+}
+}
+
+.inter-row-column h4{
+	font-weight:700;
+	font-size:20px;
+	color: #000;
+}
+
+.inter-row-column{
+	padding:6em 0 0 0;
+}
+
+.inter-row-column p{
+	padding:4px 0 10px 0;
+	font-weight:400;
+	font-size:16px;
+}
+
+ul.inter-duce {
+padding: 0;
+margin: 0;
+}
+
+a.icon5 {
+width: 129px;
+height: 51px;
+background: url(../media/icon4.png)no-repeat;
+display: block;
+cursor: pointer;
+}
+ul.inter-duce li {
+display: inline-block;
+padding: 0px;
+margin: 0px;
+}

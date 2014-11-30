@@ -1,0 +1,27 @@
+.textboxclass
+{border: none;
+/* margin: 2px 19px; */
+width: 28px;
+color: black;
+font-size: larger;
+font-weight: bold;
+background: none;
+text-align: center;
+}
+.btnclass{
+border: none;
+background-color: rgb(235, 235, 235);
+color: red;
+font-size: 24px;
+border-radius: 2px;
+height: 26px;
+margin: 0px;
+width: 26px;
+padding-bottom: 9px;
+}
+.back
+{
+padding: 5px;
+}
+/* CSS Document */
+
